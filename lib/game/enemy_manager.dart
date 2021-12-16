@@ -27,7 +27,7 @@ class EnemyManager extends Component with HasGameRef<SaveLife> {
   @override
   void update(double dt) {
     _timer!.update(dt);
-    speed = speed! + dt * 11;
+    speed = speed! + dt * 10;
     super.update(dt);
   }
 
